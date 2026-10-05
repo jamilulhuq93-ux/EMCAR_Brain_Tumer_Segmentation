@@ -1,0 +1,54 @@
+{
+  "metric_definition": "3D patient macro-average; HD95=max of directed 95th percentiles (mm)",
+  "empty_policy": "both empty: Dice=1, HD95=0; one empty: Dice=0, HD95=physical grid diagonal",
+  "regions": {
+    "ET": {
+      "dice_mean": 0.6677091974956454,
+      "dice_std": 0.3123336808737785,
+      "hd95_mm_mean": 53.52595452475105,
+      "hd95_mm_std": 119.27868830909954,
+      "hd95_mm_median": 2.8284271247461903,
+      "n": 74,
+      "empty_counts": {
+        "both_empty": 0,
+        "prediction_empty": 1,
+        "reference_empty": 8
+      },
+      "hd95_nonempty_only_mean": 9.508889733300565
+    },
+    "TC": {
+      "dice_mean": 0.837973673115461,
+      "dice_std": 0.1392913096774558,
+      "hd95_mm_mean": 9.354159615629925,
+      "hd95_mm_std": 13.319452467628935,
+      "hd95_mm_median": 5.353786831698945,
+      "n": 74,
+      "empty_counts": {
+        "both_empty": 0,
+        "prediction_empty": 0,
+        "reference_empty": 0
+      },
+      "hd95_nonempty_only_mean": 9.354159615629925
+    },
+    "WT": {
+      "dice_mean": 0.8945958760451144,
+      "dice_std": 0.0765409244907156,
+      "hd95_mm_mean": 11.659653016956764,
+      "hd95_mm_std": 20.263310287107608,
+      "hd95_mm_median": 4.527355824977709,
+      "n": 74,
+      "empty_counts": {
+        "both_empty": 0,
+        "prediction_empty": 0,
+        "reference_empty": 0
+      },
+      "hd95_nonempty_only_mean": 11.659653016956764
+    }
+  },
+  "mean_dice": 0.8000929155520735,
+  "mean_hd95_mm": 24.846589052445918,
+  "validation_wall_seconds": 631.1903127330006,
+  "inference_seconds": 57.4783301579846,
+  "patients": 74,
+  "split": "internal validation, not hidden challenge validation"
+}
