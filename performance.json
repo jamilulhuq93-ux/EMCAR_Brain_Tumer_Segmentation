@@ -1,0 +1,25 @@
+{
+  "global_optimizer_steps": 16000,
+  "cumulative_train_step_seconds": 20205.567983953137,
+  "current_session_seconds_including_validation": 27053.558741969002,
+  "stopped_by_soft_time_guard": false,
+  "timing_scope": "synchronized compute includes host-to-device, forward, loss, backward, optimizer; end-to-end adds batch fetch; excludes checkpoint/validation",
+  "warmup_exclusion": "first 10 global training steps if available",
+  "train_peak_allocated_gib_current_session": 0.6635599136352539,
+  "train_peak_reserved_gib_current_session": 0.72265625,
+  "final_eval_peak_allocated_gib": 0.19475650787353516,
+  "sampled_train_patients": 295,
+  "total_train_patients": 295,
+  "selected_validation_mean_dice": 0.8000929155520735,
+  "smoke_only": false,
+  "compute_seconds": {
+    "mean": 0.12250737954478579,
+    "median": 0.11465816699910647,
+    "p95": 0.16466553219943308
+  },
+  "end_to_end_seconds": {
+    "mean": 1.2586452630193956,
+    "median": 0.16264047750041755,
+    "p95": 8.462374090600672
+  }
+}
